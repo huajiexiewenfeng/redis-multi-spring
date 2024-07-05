@@ -22,9 +22,9 @@ public class TestController {
 
     @GetMapping("/test/redis/add")
     public void profileDetails() {
-        redisTemplate.opsForValue().set("test1", "1");
-        redisTemplateOne.opsForValue().set("test2", 2);
-        redisTemplateTwo.opsForValue().set("test3", 3);
+        redisTemplate.opsForValue().set("test1-dev1.0", "1");
+        redisTemplateOne.opsForValue().set("test2-dev1.0", 2);
+        redisTemplateTwo.opsForValue().set("test3-dev1.0", 3);
     }
 
 }
