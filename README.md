@@ -29,4 +29,4 @@ multi.redis.one.port=${REDIS_PORT:6379}
 multi.redis.one.password=NLK2Gi7Ot.D
 ```
 
-如果有时间，会在下篇文章中实现。
+dev-1.0 版本已经实现上述功能。
